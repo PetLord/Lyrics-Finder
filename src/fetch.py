@@ -807,7 +807,7 @@ songs = [
 
 set_songs = set(songs)
 
-access_token = 'CE1nWJVRqJf98RX2SHHTyfygmEzqOf0lpPJqDgAQdsWcDvz2JCYX-u3tuc9YGebj'
+access_token = 'Your Access Token Here'
 
 async def fetch_lyrics(artist_name, song_name, access_token):
     lyrics = await get_lyrics(song_name, artist_name, access_token)
